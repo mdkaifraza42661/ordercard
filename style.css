@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.summery-Component-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.summery-Container{
+    width: 70%;
+    /* height: 80vh; */
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid ; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: 2px 2px 25px gray;
+}
+.summery-Card{
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 10px;
+   
+}
+.summary-card-image{
+    width: 100%;
+}
+.summary-card-image img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.order-Summary{
+    text-align: center;
+}
+.order-Summary .heading{
+    font-size: 1.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.order-Summary .Summary{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0% 5%;
+    font-size: 1.1rem;
+    font-weight:400;
+    color: rgb(75, 71, 71);
+    line-height: 1.6rem;
+    
+}
+.Annual-Plane{
+    width: 75%;
+    margin: auto;
+    padding: 10% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.song-Anuual{
+    display: flex;
+    align-items: center;
+ 
+}
+.paymentButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    
+    margin: auto;
+}
+.paymentButton .proceedbtn{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 3% 5%;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 1.1rem;
+
+}
+
+.cancelButton {
+    text-align: center;
+    border: none;
+    padding: 5% 0%;
+    
+    /* cursor: pointer; */
+}
+.cancelButton .cancel{
+    text-align: center;
+    border: none;
+    padding: 2% 0% 2% 0%;
+    font-size: 1rem;
+    
+   
+}
+.cancel{
+    cursor: pointer;
+    background-color: transparent;
+}
+.song-text-Anuual{
+    padding-left: 8px;
+
+}
